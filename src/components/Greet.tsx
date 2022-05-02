@@ -1,4 +1,4 @@
-type GreatProps = {
+interface GreatProps {
   name :string
 }
 
