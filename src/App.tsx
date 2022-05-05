@@ -1,10 +1,13 @@
 import './App.css';
-import { Container } from './components/Contatiner';
+import { Box } from './components/context/Box';
+import { ThemeContextProvider } from './components/context/ThemeContext';
 
 function App() {
   return (
     <div className="App">
-      <Container styles={{ border: '1px solid black' }} />
+      <ThemeContextProvider>
+        <Box />
+      </ThemeContextProvider>
     </div>
   );
 }
