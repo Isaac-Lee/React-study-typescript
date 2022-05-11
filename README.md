@@ -1,2 +1,2 @@
 # React-study-typescript
-made an example app with React + Typescript
+code archive about with React + Typescript
