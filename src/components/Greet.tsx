@@ -1,11 +1,10 @@
 interface GreatProps {
-  name :string
-  messageCount? :number
-  isLoggedIn :boolean
+  name: string
+  messageCount?: number
+  isLoggedIn: boolean
 }
 
-export const Greet = (props :GreatProps) => {
-  const { messageCount = 0 } = props
+export const Greet = (props: GreatProps) => {
   return (
     <div>
       <h2>
