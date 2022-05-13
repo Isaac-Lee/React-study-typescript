@@ -1,7 +1,7 @@
-# React-study-typescript
-code archive about with React + Typescript
+# React Study w/ Typescript
+code archive about with React w/ Typescript
 
-## What I learned...
+## What did I learned...
 - Basic & Advenced Props
 - Events & Styles
 - useState
